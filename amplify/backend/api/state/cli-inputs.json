@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "paths": {
+    "/states": {
+      "name": "/states",
+      "lambdaFunction": "amplifyrestapp5c10ad34",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}
